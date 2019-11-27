@@ -23,4 +23,8 @@ class PersonSpec extends FlatSpec {
     assert(content.equals(testFileContent))
     file.close()
   }
+
+  it should "whatever" ignore {
+    "foobar"
+  }
 }
