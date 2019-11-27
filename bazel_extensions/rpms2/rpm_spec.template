@@ -1,0 +1,19 @@
+Name:           {NAME}
+Version:        {VERSION}
+Release:        {RELEASE}
+Summary:        {SUMMARY}
+
+BuildArch:      x86_64
+Requires:       java-1.8.0-openjdk
+
+License:        Proprietary
+
+%description
+
+%install
+mkdir -p %{buildroot}/opt/tally/ %{buildroot}/etc
+cp -r opt/ %{buildroot}/opt/
+cp -r etc/ %{buildroot}/etc/
+
+%files -f {FILES_DIRECTIVE_LIST_PATH}
+

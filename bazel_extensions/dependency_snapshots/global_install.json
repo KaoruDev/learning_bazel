@@ -1,0 +1,1947 @@
+{
+    "dependency_tree": {
+        "conflict_resolution": {},
+        "dependencies": [
+            {
+                "coord": "ch.qos.logback:logback-classic:1.2.3",
+                "file": "v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                "directDependencies": [
+                    "ch.qos.logback:logback-core:1.2.3",
+                    "org.slf4j:slf4j-api:1.7.25"
+                ],
+                "dependencies": [
+                    "ch.qos.logback:logback-core:1.2.3",
+                    "org.slf4j:slf4j-api:1.7.25"
+                ],
+                "url": "https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                    "https://maven.google.com/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                    "https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar"
+                ],
+                "sha256": "fb53f8539e7fcb8f093a56e138112056ec1dc809ebb020b59d8a36a5ebac37e0"
+            },
+            {
+                "coord": "ch.qos.logback:logback-classic:jar:sources:1.2.3",
+                "file": "v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar",
+                "directDependencies": [
+                    "ch.qos.logback:logback-core:jar:sources:1.2.3",
+                    "org.slf4j:slf4j-api:jar:sources:1.7.25"
+                ],
+                "dependencies": [
+                    "ch.qos.logback:logback-core:jar:sources:1.2.3",
+                    "org.slf4j:slf4j-api:jar:sources:1.7.25"
+                ],
+                "url": "https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar",
+                    "https://maven.google.com/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar",
+                    "https://jcenter.bintray.com/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar"
+                ],
+                "sha256": "480cb5e99519271c9256716d4be1a27054047435ff72078d9deae5c6a19f63eb"
+            },
+            {
+                "coord": "ch.qos.logback:logback-core:1.2.3",
+                "file": "v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                    "https://maven.google.com/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                    "https://jcenter.bintray.com/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                ],
+                "sha256": "5946d837fe6f960c02a53eda7a6926ecc3c758bbdd69aa453ee429f858217f22"
+            },
+            {
+                "coord": "ch.qos.logback:logback-core:jar:sources:1.2.3",
+                "file": "v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar",
+                    "https://maven.google.com/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar",
+                    "https://jcenter.bintray.com/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                ],
+                "sha256": "1f69b6b638ec551d26b10feeade5a2b77abe347f9759da95022f0da9a63a9971"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar"
+                ],
+                "sha256": "78a271fbb0899e2767231dcca81d4df4e346117441dbcafe983c173466baa5cb"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.google.guava:guava",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4.jar"
+                ],
+                "sha256": "78a271fbb0899e2767231dcca81d4df4e346117441dbcafe983c173466baa5cb"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar"
+                ],
+                "sha256": "ab3efad67f42fa866b13ded195aa772b3c96244638223d9bfe26747fc9dc9c68"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.google.guava:guava",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/core/jackson-annotations/2.8.4/jackson-annotations-2.8.4-sources.jar"
+                ],
+                "sha256": "ab3efad67f42fa866b13ded195aa772b3c96244638223d9bfe26747fc9dc9c68"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-core:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4.jar"
+                ],
+                "sha256": "93c6429c4439b63b97dc4343235be01c307c64bd2459d6c07508168823d0e4e1"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/core/jackson-core/2.8.4/jackson-core-2.8.4-sources.jar"
+                ],
+                "sha256": "bb8861823233f30c7e4cc1417941aae462edeee3ba942b55875d4f33f0d0ea60"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4"
+                ],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4.jar"
+                ],
+                "sha256": "ded41ca7b527d1fca5f3f70904149827297fdf70c686a76b81db606eb9e420e8"
+            },
+            {
+                "coord": "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4"
+                ],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/core/jackson-databind/2.8.4/jackson-databind-2.8.4-sources.jar"
+                ],
+                "sha256": "352096c107a8f9abb30a69badcdb6e90f336e288a50d7acbec5ca53c7319b753"
+            },
+            {
+                "coord": "com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.thoughtworks.paranamer:paranamer:2.8"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4",
+                    "com.thoughtworks.paranamer:paranamer:2.8"
+                ],
+                "exclusions": [
+                    "com.google.guava:guava",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4.jar"
+                ],
+                "sha256": "83c5ae7f7ab59e7ce3dc6fc5be74cf094fcc0bf5a7300bd2723d4d745d9f4c86"
+            },
+            {
+                "coord": "com.fasterxml.jackson.module:jackson-module-paranamer:jar:sources:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.thoughtworks.paranamer:paranamer:jar:sources:2.8"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.thoughtworks.paranamer:paranamer:jar:sources:2.8",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4"
+                ],
+                "exclusions": [
+                    "com.google.guava:guava",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/module/jackson-module-paranamer/2.8.4/jackson-module-paranamer-2.8.4-sources.jar"
+                ],
+                "sha256": "3fa2da884ddda4e68f8f64dc11bd9a488b6a2a62cd1b443576030803833621aa"
+            },
+            {
+                "coord": "com.fasterxml.jackson.module:jackson-module-scala_2.12:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4",
+                    "com.thoughtworks.paranamer:paranamer:2.8",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "com.google.guava:guava",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar"
+                ],
+                "sha256": "2e989fad7634d1a14791e44179c3085481b0736d89c461c570b9f19a0f06cb23"
+            },
+            {
+                "coord": "com.fasterxml.jackson.module:jackson-module-scala_2.12:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4",
+                    "com.thoughtworks.paranamer:paranamer:2.8",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4"
+                ],
+                "exclusions": [
+                    "com.google.guava:guava",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4.jar"
+                ],
+                "sha256": "2e989fad7634d1a14791e44179c3085481b0736d89c461c570b9f19a0f06cb23"
+            },
+            {
+                "coord": "com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:sources:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:jar:sources:2.8.4"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.thoughtworks.paranamer:paranamer:jar:sources:2.8",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:jar:sources:2.8.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "com.google.guava:guava",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar"
+                ],
+                "sha256": "23798c6bc7c1b209370420a559ad9bb19cc62ddc257bed86f7a22715563bb35b"
+            },
+            {
+                "coord": "com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:sources:2.8.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:jar:sources:2.8.4"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.thoughtworks.paranamer:paranamer:jar:sources:2.8",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:jar:sources:2.8.4"
+                ],
+                "exclusions": [
+                    "com.google.guava:guava",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                    "https://maven.google.com/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                    "https://jcenter.bintray.com/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/fasterxml/jackson/module/jackson-module-scala_2.12/2.8.4/jackson-module-scala_2.12-2.8.4-sources.jar"
+                ],
+                "sha256": "23798c6bc7c1b209370420a559ad9bb19cc62ddc257bed86f7a22715563bb35b"
+            },
+            {
+                "coord": "com.github.ben-manes.caffeine:caffeine:2.3.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4.jar",
+                    "https://maven.google.com/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4.jar",
+                    "https://jcenter.bintray.com/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4.jar"
+                ],
+                "sha256": "3b7f5ba485d9f89ba7ee04a49bed9fb972cff981932dc0b01cf90d000d294270"
+            },
+            {
+                "coord": "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                "file": "v1/https/repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4-sources.jar",
+                    "https://maven.google.com/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4-sources.jar",
+                    "https://jcenter.bintray.com/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4-sources.jar"
+                ],
+                "sha256": "ef245176244c48dad0011d45391e7474163ae0c31f46464fc786f8eef277f19c"
+            },
+            {
+                "coord": "com.google.code.findbugs:jsr305:2.0.1",
+                "file": "v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar",
+                    "https://maven.google.com/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar",
+                    "https://jcenter.bintray.com/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar"
+                ],
+                "sha256": "1e7f53fa5b8b5c807e986ba335665da03f18d660802d8bf061823089d1bee468"
+            },
+            {
+                "coord": "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                "file": null,
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ]
+            },
+            {
+                "coord": "com.thoughtworks.paranamer:paranamer:2.8",
+                "file": "v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.google.guava:guava",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+                    "https://maven.google.com/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+                    "https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
+                ],
+                "sha256": "688cb118a6021d819138e855208c956031688be4b47a24bb615becc63acedf07"
+            },
+            {
+                "coord": "com.thoughtworks.paranamer:paranamer:jar:sources:2.8",
+                "file": "v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.google.guava:guava",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar",
+                    "https://maven.google.com/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar",
+                    "https://jcenter.bintray.com/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8-sources.jar"
+                ],
+                "sha256": "8a4bfc21755c36ccdd70f96d7ab891d842d5aebd6afa1b74e0efc6441e3df39c"
+            },
+            {
+                "coord": "com.twitter:finagle-core_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "com.twitter:util-hashing_2.12:18.6.0",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "com.twitter:util-lint_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.hdrhistogram:HdrHistogram:2.1.10",
+                    "com.twitter:util-security_2.12:18.6.0",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.twitter:finagle-toggle_2.12:18.6.0",
+                    "com.twitter:util-jvm_2.12:18.6.0",
+                    "com.twitter:util-tunable_2.12:18.6.0",
+                    "com.twitter:util-cache_2.12:18.6.0",
+                    "com.twitter:util-codec_2.12:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4",
+                    "com.twitter:finagle-init_2.12:18.6.0",
+                    "com.twitter:util-logging_2.12:18.6.0"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4",
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "com.thoughtworks.paranamer:paranamer:2.8",
+                    "com.twitter:util-hashing_2.12:18.6.0",
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:2.8.4",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "com.twitter:util-lint_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.hdrhistogram:HdrHistogram:2.1.10",
+                    "com.twitter:util-security_2.12:18.6.0",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.twitter:finagle-toggle_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-jvm_2.12:18.6.0",
+                    "com.twitter:util-tunable_2.12:18.6.0",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.twitter:util-cache_2.12:18.6.0",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4",
+                    "com.twitter:util-codec_2.12:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4",
+                    "com.twitter:finagle-init_2.12:18.6.0",
+                    "com.twitter:util-logging_2.12:18.6.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0.jar"
+                ],
+                "sha256": "cc3371e4a53633461e71bc497838751cad33fedb0de8eb320e88965500f4b1bc"
+            },
+            {
+                "coord": "com.twitter:finagle-core_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-logging_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-codec_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-tunable_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-jvm_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "com.twitter:finagle-toggle_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                    "org.hdrhistogram:HdrHistogram:jar:sources:2.1.10",
+                    "com.twitter:finagle-init_2.12:jar:sources:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-hashing_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-cache_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-security_2.12:jar:sources:18.6.0"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:sources:2.8.4",
+                    "com.twitter:util-logging_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-codec_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-tunable_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-jvm_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.thoughtworks.paranamer:paranamer:jar:sources:2.8",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "com.twitter:finagle-toggle_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:jar:sources:2.8.4",
+                    "org.hdrhistogram:HdrHistogram:jar:sources:2.1.10",
+                    "com.twitter:finagle-init_2.12:jar:sources:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-hashing_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-cache_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-security_2.12:jar:sources:18.6.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/finagle-core_2.12/18.6.0/finagle-core_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "2caecbc3d2ac80561b5e22295ce7d4edc4778a0c484370014cfbc04c2599f5a4"
+            },
+            {
+                "coord": "com.twitter:finagle-init_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0.jar"
+                ],
+                "sha256": "a010512cf415fcf2eeee3cf1075a55d3ae2e52915312f01b5fb468063545402e"
+            },
+            {
+                "coord": "com.twitter:finagle-init_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/finagle-init_2.12/18.6.0/finagle-init_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "8217804b44364953cdfae790e19bd890ae092a03fec6839c0ff90ed6510be028"
+            },
+            {
+                "coord": "com.twitter:finagle-toggle_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:2.8.4",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4",
+                    "com.twitter:util-logging_2.12:18.6.0"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4",
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "com.thoughtworks.paranamer:paranamer:2.8",
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:2.8.4",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "com.twitter:util-lint_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4",
+                    "com.twitter:util-logging_2.12:18.6.0"
+                ],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0.jar"
+                ],
+                "sha256": "9f1d3b181888af8bdb30b81cd994002bc100464bea2addba12c770b1a1af04e3"
+            },
+            {
+                "coord": "com.twitter:finagle-toggle_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:sources:2.8.4",
+                    "com.twitter:util-logging_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:sources:2.8.4",
+                    "com.twitter:util-logging_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.thoughtworks.paranamer:paranamer:jar:sources:2.8",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:jar:sources:2.8.4",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/finagle-toggle_2.12/18.6.0/finagle-toggle_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "3f4ca0071bc149bcbdd8bf567fc9df8bdb43c6dcbdc518c01ef256db6d9d2c1b"
+            },
+            {
+                "coord": "com.twitter:scrooge-core_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0.jar"
+                ],
+                "sha256": "02a6d7cf9fe8d872dfabd20298e4315d677748708e153d8b464fd5abac9a7430"
+            },
+            {
+                "coord": "com.twitter:scrooge-core_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/scrooge-core_2.12/18.6.0/scrooge-core_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "ff3a570d4f71ec6ede9b24b5a4e7e31ac3d31bfcb3540095ba2e8b37e3212213"
+            },
+            {
+                "coord": "com.twitter:util-app_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0.jar"
+                ],
+                "sha256": "20ae268c0ec16c2405bfb6d35374c12748882cef6c98bc51f23d289d5667eb07"
+            },
+            {
+                "coord": "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-app_2.12/18.6.0/util-app_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "f582dc6f93adfd08b3200cf7624d25198b77252a601a7e78f4c618050b1220d1"
+            },
+            {
+                "coord": "com.twitter:util-cache_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4",
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0.jar"
+                ],
+                "sha256": "925b8b7781e0f354080c415b2fe6d902e21935624cb9452efc701bc43c46d22f"
+            },
+            {
+                "coord": "com.twitter:util-cache_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-cache_2.12/18.6.0/util-cache_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "14268efd7dc415d4cda381ee2f937f35361ec6e70c5d054d0b71fa045859f737"
+            },
+            {
+                "coord": "com.twitter:util-codec_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0.jar"
+                ],
+                "sha256": "d9db22a415027961c6c169916c8a2a9bda91b13097125c862ffc775f250a28ca"
+            },
+            {
+                "coord": "com.twitter:util-codec_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-codec_2.12/18.6.0/util-codec_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "e3e5122104ba3b981622875407ae6368d5a27291c1ece158cd97269641e001ac"
+            },
+            {
+                "coord": "com.twitter:util-core_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4"
+                ],
+                "dependencies": [
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0.jar"
+                ],
+                "sha256": "65bb92e70f95cbbfc640e54a5823a16154eac1a2631dc0211347e085aaa6ed0b"
+            },
+            {
+                "coord": "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-core_2.12/18.6.0/util-core_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "6e70a63c9ca08d2cc90a211087d518e0ca9f29ec89f14858dedf53137d2d7e80"
+            },
+            {
+                "coord": "com.twitter:util-function_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0.jar"
+                ],
+                "sha256": "35a00cabc612565a955e88e5379a529339fad029fe5c750481cc3d55ed877cea"
+            },
+            {
+                "coord": "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-function_2.12/18.6.0/util-function_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "fea9a7822221fa4fcbea992edb325403f327d07c3d208ab09327f37b124535f0"
+            },
+            {
+                "coord": "com.twitter:util-hashing_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0.jar"
+                ],
+                "sha256": "5d9d4fb0006c3e530f5599b240939a5ed7ffae7102d686d761d03439bdcf9ecb"
+            },
+            {
+                "coord": "com.twitter:util-hashing_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-hashing_2.12/18.6.0/util-hashing_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "fa15d3f803351859474ab35c5a396cedc212db817d1fcf8fbf93258197bb7e95"
+            },
+            {
+                "coord": "com.twitter:util-jvm_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "com.twitter:util-lint_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0.jar"
+                ],
+                "sha256": "ef9da0b2a840302eaa50e3aaf31920510d63085e18a98743fca59ae5dc96db98"
+            },
+            {
+                "coord": "com.twitter:util-jvm_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-jvm_2.12/18.6.0/util-jvm_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "31e3779f1677d5a15757aeabbe99d77a635d8f67f2743f8a537135f4d3c88295"
+            },
+            {
+                "coord": "com.twitter:util-lint_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0.jar"
+                ],
+                "sha256": "69d02200111faceaa3c0842ac45a3fd83e4b372644d01aff1a9aaeaf184fc460"
+            },
+            {
+                "coord": "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-lint_2.12/18.6.0/util-lint_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "c7a0c98ea8aa1af95da0652a0a512cd3200f2c2147e66817936a6a009c6d3b3f"
+            },
+            {
+                "coord": "com.twitter:util-logging_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "com.twitter:util-lint_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0.jar"
+                ],
+                "sha256": "c0cba01705e9321b3444adcd4a9ce27c2acefd27e14c13b5aec2c318ce1b4fdf"
+            },
+            {
+                "coord": "com.twitter:util-logging_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-logging_2.12/18.6.0/util-logging_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "449c54cb84682e94fb2a157e0c8770cdaea8e355f4cdfd4b06cb11b2004de43f"
+            },
+            {
+                "coord": "com.twitter:util-registry_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0.jar"
+                ],
+                "sha256": "601292b3e2d068e3d4c53ddcb3cad8e6d6c65561513cce58fc46cf8aa10aad14"
+            },
+            {
+                "coord": "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-registry_2.12/18.6.0/util-registry_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "4e4b2a0119d30f52e713910c39f032aebc6ce533d7043d0ac4a13365eb89a54b"
+            },
+            {
+                "coord": "com.twitter:util-security_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.twitter:util-logging_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "com.twitter:util-stats_2.12:18.6.0",
+                    "com.twitter:util-lint_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4",
+                    "com.twitter:util-logging_2.12:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0.jar"
+                ],
+                "sha256": "3a329b5455f2c8aaa666124d9b0386cb3cacc3ff69ebd237d7355527d0d26bd6"
+            },
+            {
+                "coord": "com.twitter:util-security_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-logging_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-logging_2.12:jar:sources:18.6.0",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-security_2.12/18.6.0/util-security_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "1abc3295a9568cec8e4d8d105b5fe9d68908cdbeb2ff4acfff98fb348105f219"
+            },
+            {
+                "coord": "com.twitter:util-stats_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-lint_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:2.0.1",
+                    "com.twitter:util-lint_2.12:18.6.0",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.github.ben-manes.caffeine:caffeine:2.3.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0.jar"
+                ],
+                "sha256": "942a721dba504bb1de419c8a4f1637764927d3981bd3ceb82d117e9d831ae260"
+            },
+            {
+                "coord": "com.twitter:util-stats_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "dependencies": [
+                    "com.google.code.findbugs:jsr305:jar:sources:2.0.1",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.twitter:util-lint_2.12:jar:sources:18.6.0",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.github.ben-manes.caffeine:caffeine:jar:sources:2.3.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-stats_2.12/18.6.0/util-stats_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "afe648cacf8b9eea96f1d290ff97e448c584de5d25c34d3101aa4b1c4f242b9c"
+            },
+            {
+                "coord": "com.twitter:util-tunable_2.12:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:2.8.4",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:2.8.4",
+                    "com.twitter:util-registry_2.12:18.6.0",
+                    "com.thoughtworks.paranamer:paranamer:2.8",
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:2.8.4",
+                    "org.scala-lang:scala-library:2.12.8",
+                    "com.twitter:util-app_2.12:18.6.0",
+                    "com.twitter:util-core_2.12:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                    "com.twitter:util-function_2.12:18.6.0",
+                    "org.scala-lang:scala-reflect:2.12.4",
+                    "com.fasterxml.jackson.core:jackson-databind:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-annotations:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-core:2.8.4"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0.jar",
+                    "https://maven.google.com/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0.jar"
+                ],
+                "sha256": "8b560d017d57b4b40d081927dd174d065c48bc37c88e01bd8e381107aed95027"
+            },
+            {
+                "coord": "com.twitter:util-tunable_2.12:jar:sources:18.6.0",
+                "file": "v1/https/repo1.maven.org/maven2/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0-sources.jar",
+                "directDependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:sources:2.8.4",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "dependencies": [
+                    "com.fasterxml.jackson.module:jackson-module-scala_2.12:jar:sources:2.8.4",
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                    "com.twitter:util-app_2.12:jar:sources:18.6.0",
+                    "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                    "com.thoughtworks.paranamer:paranamer:jar:sources:2.8",
+                    "com.fasterxml.jackson.core:jackson-core:jar:sources:2.8.4",
+                    "com.fasterxml.jackson.core:jackson-databind:jar:sources:2.8.4",
+                    "com.twitter:util-registry_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.core:jackson-annotations:jar:sources:2.8.4",
+                    "com.twitter:util-function_2.12:jar:sources:18.6.0",
+                    "com.fasterxml.jackson.module:jackson-module-paranamer:jar:sources:2.8.4",
+                    "com.twitter:util-core_2.12:jar:sources:18.6.0"
+                ],
+                "exclusions": [
+                    "javax.jms:jms",
+                    "org.scala-tools.testing:*",
+                    "junit:*",
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "org.mockito:*"
+                ],
+                "url": "https://repo1.maven.org/maven2/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0-sources.jar",
+                    "https://maven.google.com/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0-sources.jar",
+                    "https://jcenter.bintray.com/com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//com/twitter/util-tunable_2.12/18.6.0/util-tunable_2.12-18.6.0-sources.jar"
+                ],
+                "sha256": "e241ecd72899a041559025eaebd95e4ec1b385397023d7d3c2694e537811187d"
+            },
+            {
+                "coord": "joda-time:joda-time:2.10.1",
+                "file": "v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+                    "https://maven.google.com/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+                    "https://jcenter.bintray.com/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//joda-time/joda-time/2.10.1/joda-time-2.10.1.jar"
+                ],
+                "sha256": "d269671656767e05a58dd634cbafc36ed70d417220b058d11c0d88dfd281616d"
+            },
+            {
+                "coord": "joda-time:joda-time:jar:sources:2.10.1",
+                "file": "v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar",
+                    "https://maven.google.com/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar",
+                    "https://jcenter.bintray.com/joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//joda-time/joda-time/2.10.1/joda-time-2.10.1-sources.jar"
+                ],
+                "sha256": "4315745ec85d80032ae038ba74cc7d116e0d92b9d45e6ab13673c2f6474e7192"
+            },
+            {
+                "coord": "org.clapper:grizzled-slf4j_2.12:1.3.4",
+                "file": "v1/https/repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:2.12.8",
+                    "org.slf4j:slf4j-api:1.7.25"
+                ],
+                "dependencies": [
+                    "org.slf4j:slf4j-api:1.7.25",
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4.jar",
+                    "https://maven.google.com/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4.jar",
+                    "https://jcenter.bintray.com/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4.jar"
+                ],
+                "sha256": "b0d74793b9d0ccaa305572d802c271e58c08202345169854e5ba646cbb54a8f7"
+            },
+            {
+                "coord": "org.clapper:grizzled-slf4j_2.12:jar:sources:1.3.4",
+                "file": "v1/https/repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4-sources.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.slf4j:slf4j-api:jar:sources:1.7.25"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8",
+                    "org.slf4j:slf4j-api:jar:sources:1.7.25"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4-sources.jar",
+                    "https://maven.google.com/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4-sources.jar",
+                    "https://jcenter.bintray.com/org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/clapper/grizzled-slf4j_2.12/1.3.4/grizzled-slf4j_2.12-1.3.4-sources.jar"
+                ],
+                "sha256": "fee07d5c3a1cafeea8cff19b5f2c6ac944ce7796941b785b09c741b3dbe41937"
+            },
+            {
+                "coord": "org.hdrhistogram:HdrHistogram:2.1.10",
+                "file": "v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar",
+                    "https://maven.google.com/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar",
+                    "https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10.jar"
+                ],
+                "sha256": "6a65119ee9372e58b490e889e9f8293802efd3bbc2549dd47b6e1259cd12402c"
+            },
+            {
+                "coord": "org.hdrhistogram:HdrHistogram:jar:sources:2.1.10",
+                "file": "v1/https/repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "exclusions": [
+                    "com.sun.jmx:jmxri",
+                    "com.sun.jdmk:jmxtools",
+                    "javax.jms:jms"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10-sources.jar",
+                    "https://maven.google.com/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10-sources.jar",
+                    "https://jcenter.bintray.com/org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/hdrhistogram/HdrHistogram/2.1.10/HdrHistogram-2.1.10-sources.jar"
+                ],
+                "sha256": "bf9b88e6ce01536b6a53354eb32e6199fd55777bd819b9312a344117198021ee"
+            },
+            {
+                "coord": "org.scala-lang.modules:scala-parser-combinators_2.12:1.0.4",
+                "file": "v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar",
+                    "https://maven.google.com/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar",
+                    "https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"
+                ],
+                "sha256": "282c78d064d3e8f09b3663190d9494b85e0bb7d96b0da05994fe994384d96111"
+            },
+            {
+                "coord": "org.scala-lang.modules:scala-parser-combinators_2.12:jar:sources:1.0.4",
+                "file": "v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar",
+                    "https://maven.google.com/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar",
+                    "https://jcenter.bintray.com/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar"
+                ],
+                "sha256": "cb4ba7b7e598530faec863e5069864a28268ee4c636b0c46443884dcc4e07ac6"
+            },
+            {
+                "coord": "org.scala-lang:scala-library:2.12.8",
+                "file": "v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                    "https://maven.google.com/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                    "https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar"
+                ],
+                "sha256": "321fb55685635c931eba4bc0d7668349da3f2c09aee2de93a70566066ff25c28"
+            },
+            {
+                "coord": "org.scala-lang:scala-library:jar:sources:2.12.8",
+                "file": "v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar",
+                    "https://maven.google.com/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar",
+                    "https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar"
+                ],
+                "sha256": "11482bcb49b2e47baee89c3b1ae10c6a40b89e2fbb0da2a423e062f444e13492"
+            },
+            {
+                "coord": "org.scala-lang:scala-reflect:2.12.4",
+                "file": "v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:2.12.8"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar",
+                    "https://maven.google.com/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar",
+                    "https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar"
+                ],
+                "sha256": "ea70fe0e550e24d23fc52a18963b2be9c3b24283f4cb18b98327eb72746567cc"
+            },
+            {
+                "coord": "org.scala-lang:scala-reflect:jar:sources:2.12.4",
+                "file": "v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar",
+                "directDependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "dependencies": [
+                    "org.scala-lang:scala-library:jar:sources:2.12.8"
+                ],
+                "url": "https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar",
+                    "https://maven.google.com/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar",
+                    "https://jcenter.bintray.com/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4-sources.jar"
+                ],
+                "sha256": "7b4dc73dc3cb46ac9ac948a0c231ccd989bed6cefb137c302a8ec8d6811e8148"
+            },
+            {
+                "coord": "org.slf4j:slf4j-api:1.7.25",
+                "file": "v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
+                    "https://maven.google.com/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
+                    "https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar"
+                ],
+                "sha256": "18c4a0095d5c1da6b817592e767bb23d29dd2f560ad74df75ff3961dbde25b79"
+            },
+            {
+                "coord": "org.slf4j:slf4j-api:jar:sources:1.7.25",
+                "file": "v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar",
+                "directDependencies": [],
+                "dependencies": [],
+                "url": "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar",
+                "mirror_urls": [
+                    "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar",
+                    "https://maven.google.com/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar",
+                    "https://jcenter.bintray.com/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar",
+                    "https://oss.sonatype.org/content/repositories/releases//org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar"
+                ],
+                "sha256": "c4bc93180a4f0aceec3b057a2514abe04a79f06c174bbed910a2afb227b79366"
+            }
+        ],
+        "version": "0.1.0",
+        "__AUTOGENERATED_FILE_DO_NOT_MODIFY_THIS_FILE_MANUALLY": 261776971
+    }
+}

@@ -1,0 +1,31 @@
+Name:           {NAME}
+Version:        {VERSION}
+Release:        {RELEASE}
+Summary:        {SUMMARY}
+BuildArch:      x86_64
+Requires:       java-1.8.0-openjdk
+
+License:        {LICENSE}
+URL:            {URL}
+
+{SOURCE_URL}
+
+{PATCH_URL}
+
+%description
+{DESCRIPTION}
+
+%prep
+{PREP}
+
+%build
+{BUILD}
+
+%install
+{INSTALL}
+
+%files
+{FILES}
+
+%changelog
+{CHANGELOG}

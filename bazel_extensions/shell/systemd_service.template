@@ -1,0 +1,14 @@
+[Unit]
+Description={DESCRIPTION}
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=forking
+ExecStart={START_CMD}
+ExecStop={STOP_CMD}
+ExecRestart={RESTART_CMD}
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target
