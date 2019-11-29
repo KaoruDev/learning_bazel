@@ -1,6 +1,6 @@
 workspace(name = "learning_bazel")
-RULES_SCALA_VERSION="177e2eeb665899a0f116d20876c8c77b4ef27b98" # update this as needed
-RULES_SCALA_SHA="86398dd83575fe25648c395bea90b87b8400fbbbc69605b7ec7d7f4e17e61935"
+RULES_SCALA_VERSION="e56840204179b1f668ba2f6f8f23f28d00d96794" # update this as needed
+RULES_SCALA_SHA="0fbe2387eb59c73278a192f797327c0895d412299c8e2f00867d655770796edc"
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 http_archive(
@@ -25,9 +25,6 @@ scala_repositories((
     }
 ))
 
-load("@io_bazel_rules_scala//twitter_scrooge:twitter_scrooge.bzl", "twitter_scrooge")
-twitter_scrooge(SCALA_VERSION)
-
 protobuf_version="09745575a923640154bcf307fba8aedff47f240a"
 protobuf_version_sha256="416212e14481cff8fd4849b1c1c1200a7f34808a54377e22d7447efdf54ad758"
 
@@ -47,8 +44,8 @@ http_archive(
     sha256 = "2ef429f5d7ce7111263289644d233707dba35e39696377ebab8b0bc701f7818e",
 )
 
-RULES_JVM_EXTERNAL_TAG = "2.7"
-RULES_JVM_EXTERNAL_SHA = "f04b1466a00a2845106801e0c5cec96841f49ea4e7d1df88dc8e4bf31523df74"
+RULES_JVM_EXTERNAL_TAG = "2.10"
+RULES_JVM_EXTERNAL_SHA = "1bbf2e48d07686707dd85357e9a94da775e1dbd7c464272b3664283c9c716d26"
 
 http_archive(
     name = "rules_jvm_external",
@@ -58,50 +55,19 @@ http_archive(
 )
 
 load("@rules_jvm_external//:defs.bzl", "maven_install")
-load("@rules_jvm_external//:specs.bzl", "maven")
 
+load("//:bazel_extensions/global.bzl",
+    GLOBAL_ARTIFACTS = "ARTIFACTS",
+    GLOBAL_REPOSITORIES = "REPOSITORIES",
+)
 
 maven_install(
     name = "global",
-    artifacts = [
-        "joda-time:joda-time:2.10.1",
-        "ch.qos.logback:logback-classic:1.2.3",
-        "ch.qos.logback:logback-core:1.2.3",
-        scala_dep("org.clapper:grizzled-slf4j:1.3.4"),
-        scala_dep("com.twitter:finagle-core:18.6.0"),
-        scala_dep("com.twitter:scrooge-core:18.6.0"),
-    ],
-    repositories = [
-        "https://repo1.maven.org/maven2",
-        "https://maven.google.com",
-        "https://jcenter.bintray.com",
-        "https://oss.sonatype.org/content/repositories/releases/",
-    ],
+    artifacts = GLOBAL_ARTIFACTS,
+    repositories = GLOBAL_REPOSITORIES,
     maven_install_json = "//:bazel_extensions/dependency_snapshots/global_install.json",
     fetch_sources = True,
 )
+
 load("@global//:defs.bzl", pinned_global_install = "pinned_maven_install")
 pinned_global_install()
-
-bind(
-    name = "io_bazel_rules_scala/dependency/thrift/scrooge_core",
-    actual = "//vehicles:scrooge_jars"
-)
-
-RULES_PKG_VERSION = "0.2.4"
-RULES_PKG_SHA = "4ba8f4ab0ff85f2484287ab06c0d871dcb31cc54d439457d28fd4ae14b18450a"
-
-#http_archive(
-#    name = "rules_pkg",
-#    sha256 = RULES_PKG_SHA,
-#    url = "https://github.com/bazelbuild/rules_pkg/releases/download/{version}/rules_pkg-{version}.tar.gz".format(
-#        version = RULES_PKG_VERSION
-#    )
-#)
-
-local_repository(
-    name = "rules_pkg",
-    path = "../rules_pkg/pkg",
-)
-load("@rules_pkg//:deps.bzl", "rules_pkg_dependencies")
-rules_pkg_dependencies()
